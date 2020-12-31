@@ -1,0 +1,31 @@
+// al package.json se le agregan los diferentes scripts que se deben ejecutar por npm cada  vez que creo uno nuevo.
+
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/rick_and_morty/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becerra2906/asycn_js_plati.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "Alejandro Becerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becerra2906/asycn_js_plati/issues"
+  },
+  "homepage": "https://github.com/becerra2906/asycn_js_plati#readme",
+  "dependencies": {
+    "loader": "^2.1.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
